@@ -7,7 +7,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "Memory",
-            "id": "Memory-NiN8B",
+            "id": "Memory-I2rys",
             "name": "messages_text",
             "output_types": [
               "Message"
@@ -15,7 +15,7 @@
           },
           "targetHandle": {
             "fieldName": "CHAT_HISTORY",
-            "id": "Prompt-5h0SM",
+            "id": "Prompt-nrpOe",
             "inputTypes": [
               "Message",
               "Text"
@@ -23,127 +23,12 @@
             "type": "str"
           }
         },
-        "id": "reactflow__edge-Memory-NiN8B{œdataTypeœ:œMemoryœ,œidœ:œMemory-NiN8Bœ,œnameœ:œmessages_textœ,œoutput_typesœ:[œMessageœ]}-Prompt-5h0SM{œfieldNameœ:œCHAT_HISTORYœ,œidœ:œPrompt-5h0SMœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-Memory-I2rys{œdataTypeœ:œMemoryœ,œidœ:œMemory-I2rysœ,œnameœ:œmessages_textœ,œoutput_typesœ:[œMessageœ]}-Prompt-nrpOe{œfieldNameœ:œCHAT_HISTORYœ,œidœ:œPrompt-nrpOeœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "Memory-NiN8B",
-        "sourceHandle": "{œdataTypeœ:œMemoryœ,œidœ:œMemory-NiN8Bœ,œnameœ:œmessages_textœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Prompt-5h0SM",
-        "targetHandle": "{œfieldNameœ:œCHAT_HISTORYœ,œidœ:œPrompt-5h0SMœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "URL",
-            "id": "URL-nHm91",
-            "name": "text",
-            "output_types": [
-              "Message"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "EXAMPLE_COMPONENTS",
-            "id": "Prompt-5h0SM",
-            "inputTypes": [
-              "Message",
-              "Text"
-            ],
-            "type": "str"
-          }
-        },
-        "id": "reactflow__edge-URL-nHm91{œdataTypeœ:œURLœ,œidœ:œURL-nHm91œ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Prompt-5h0SM{œfieldNameœ:œEXAMPLE_COMPONENTSœ,œidœ:œPrompt-5h0SMœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
-        "selected": false,
-        "source": "URL-nHm91",
-        "sourceHandle": "{œdataTypeœ:œURLœ,œidœ:œURL-nHm91œ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Prompt-5h0SM",
-        "targetHandle": "{œfieldNameœ:œEXAMPLE_COMPONENTSœ,œidœ:œPrompt-5h0SMœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "URL",
-            "id": "URL-4puol",
-            "name": "text",
-            "output_types": [
-              "Message"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "BASE_COMPONENT_CODE",
-            "id": "Prompt-5h0SM",
-            "inputTypes": [
-              "Message",
-              "Text"
-            ],
-            "type": "str"
-          }
-        },
-        "id": "reactflow__edge-URL-4puol{œdataTypeœ:œURLœ,œidœ:œURL-4puolœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Prompt-5h0SM{œfieldNameœ:œBASE_COMPONENT_CODEœ,œidœ:œPrompt-5h0SMœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
-        "selected": false,
-        "source": "URL-4puol",
-        "sourceHandle": "{œdataTypeœ:œURLœ,œidœ:œURL-4puolœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Prompt-5h0SM",
-        "targetHandle": "{œfieldNameœ:œBASE_COMPONENT_CODEœ,œidœ:œPrompt-5h0SMœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "URL",
-            "id": "URL-YH8Jm",
-            "name": "text",
-            "output_types": [
-              "Message"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "CUSTOM_COMPONENT_CODE",
-            "id": "Prompt-5h0SM",
-            "inputTypes": [
-              "Message",
-              "Text"
-            ],
-            "type": "str"
-          }
-        },
-        "id": "reactflow__edge-URL-YH8Jm{œdataTypeœ:œURLœ,œidœ:œURL-YH8Jmœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Prompt-5h0SM{œfieldNameœ:œCUSTOM_COMPONENT_CODEœ,œidœ:œPrompt-5h0SMœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
-        "selected": false,
-        "source": "URL-YH8Jm",
-        "sourceHandle": "{œdataTypeœ:œURLœ,œidœ:œURL-YH8Jmœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Prompt-5h0SM",
-        "targetHandle": "{œfieldNameœ:œCUSTOM_COMPONENT_CODEœ,œidœ:œPrompt-5h0SMœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "Prompt",
-            "id": "Prompt-5h0SM",
-            "name": "prompt",
-            "output_types": [
-              "Message"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "input_value",
-            "id": "AnthropicModel-jRPOc",
-            "inputTypes": [
-              "Message"
-            ],
-            "type": "str"
-          }
-        },
-        "id": "reactflow__edge-Prompt-5h0SM{œdataTypeœ:œPromptœ,œidœ:œPrompt-5h0SMœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-AnthropicModel-jRPOc{œfieldNameœ:œinput_valueœ,œidœ:œAnthropicModel-jRPOcœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "selected": false,
-        "source": "Prompt-5h0SM",
-        "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-5h0SMœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "AnthropicModel-jRPOc",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œAnthropicModel-jRPOcœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "source": "Memory-I2rys",
+        "sourceHandle": "{œdataTypeœ: œMemoryœ, œidœ: œMemory-I2rysœ, œnameœ: œmessages_textœ, œoutput_typesœ: [œMessageœ]}",
+        "target": "Prompt-nrpOe",
+        "targetHandle": "{œfieldNameœ: œCHAT_HISTORYœ, œidœ: œPrompt-nrpOeœ, œinputTypesœ: [œMessageœ, œTextœ], œtypeœ: œstrœ}"
       },
       {
         "animated": false,
@@ -151,7 +36,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "ChatInput",
-            "id": "ChatInput-t7JYH",
+            "id": "ChatInput-UKcNw",
             "name": "message",
             "output_types": [
               "Message"
@@ -159,7 +44,7 @@
           },
           "targetHandle": {
             "fieldName": "USER_INPUT",
-            "id": "Prompt-5h0SM",
+            "id": "Prompt-nrpOe",
             "inputTypes": [
               "Message",
               "Text"
@@ -167,20 +52,133 @@
             "type": "str"
           }
         },
-        "id": "reactflow__edge-ChatInput-t7JYH{œdataTypeœ:œChatInputœ,œidœ:œChatInput-t7JYHœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Prompt-5h0SM{œfieldNameœ:œUSER_INPUTœ,œidœ:œPrompt-5h0SMœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-ChatInput-UKcNw{œdataTypeœ:œChatInputœ,œidœ:œChatInput-UKcNwœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Prompt-nrpOe{œfieldNameœ:œUSER_INPUTœ,œidœ:œPrompt-nrpOeœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "ChatInput-t7JYH",
-        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-t7JYHœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Prompt-5h0SM",
-        "targetHandle": "{œfieldNameœ:œUSER_INPUTœ,œidœ:œPrompt-5h0SMœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}"
+        "source": "ChatInput-UKcNw",
+        "sourceHandle": "{œdataTypeœ: œChatInputœ, œidœ: œChatInput-UKcNwœ, œnameœ: œmessageœ, œoutput_typesœ: [œMessageœ]}",
+        "target": "Prompt-nrpOe",
+        "targetHandle": "{œfieldNameœ: œUSER_INPUTœ, œidœ: œPrompt-nrpOeœ, œinputTypesœ: [œMessageœ, œTextœ], œtypeœ: œstrœ}"
       },
       {
         "animated": false,
         "className": "",
         "data": {
           "sourceHandle": {
+            "dataType": "URL",
+            "id": "URL-yGoND",
+            "name": "text",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "EXAMPLE_COMPONENTS",
+            "id": "Prompt-nrpOe",
+            "inputTypes": [
+              "Message",
+              "Text"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "reactflow__edge-URL-yGoND{œdataTypeœ:œURLœ,œidœ:œURL-yGoNDœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Prompt-nrpOe{œfieldNameœ:œEXAMPLE_COMPONENTSœ,œidœ:œPrompt-nrpOeœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "URL-yGoND",
+        "sourceHandle": "{œdataTypeœ: œURLœ, œidœ: œURL-yGoNDœ, œnameœ: œtextœ, œoutput_typesœ: [œMessageœ]}",
+        "target": "Prompt-nrpOe",
+        "targetHandle": "{œfieldNameœ: œEXAMPLE_COMPONENTSœ, œidœ: œPrompt-nrpOeœ, œinputTypesœ: [œMessageœ, œTextœ], œtypeœ: œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "URL",
+            "id": "URL-jMFLx",
+            "name": "text",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "BASE_COMPONENT_CODE",
+            "id": "Prompt-nrpOe",
+            "inputTypes": [
+              "Message",
+              "Text"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "reactflow__edge-URL-jMFLx{œdataTypeœ:œURLœ,œidœ:œURL-jMFLxœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Prompt-nrpOe{œfieldNameœ:œBASE_COMPONENT_CODEœ,œidœ:œPrompt-nrpOeœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "URL-jMFLx",
+        "sourceHandle": "{œdataTypeœ: œURLœ, œidœ: œURL-jMFLxœ, œnameœ: œtextœ, œoutput_typesœ: [œMessageœ]}",
+        "target": "Prompt-nrpOe",
+        "targetHandle": "{œfieldNameœ: œBASE_COMPONENT_CODEœ, œidœ: œPrompt-nrpOeœ, œinputTypesœ: [œMessageœ, œTextœ], œtypeœ: œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "URL",
+            "id": "URL-ps8i7",
+            "name": "text",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "CUSTOM_COMPONENT_CODE",
+            "id": "Prompt-nrpOe",
+            "inputTypes": [
+              "Message",
+              "Text"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "reactflow__edge-URL-ps8i7{œdataTypeœ:œURLœ,œidœ:œURL-ps8i7œ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Prompt-nrpOe{œfieldNameœ:œCUSTOM_COMPONENT_CODEœ,œidœ:œPrompt-nrpOeœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "URL-ps8i7",
+        "sourceHandle": "{œdataTypeœ: œURLœ, œidœ: œURL-ps8i7œ, œnameœ: œtextœ, œoutput_typesœ: [œMessageœ]}",
+        "target": "Prompt-nrpOe",
+        "targetHandle": "{œfieldNameœ: œCUSTOM_COMPONENT_CODEœ, œidœ: œPrompt-nrpOeœ, œinputTypesœ: [œMessageœ, œTextœ], œtypeœ: œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "Prompt",
+            "id": "Prompt-nrpOe",
+            "name": "prompt",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "AnthropicModel-WajFy",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "reactflow__edge-Prompt-nrpOe{œdataTypeœ:œPromptœ,œidœ:œPrompt-nrpOeœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-AnthropicModel-WajFy{œfieldNameœ:œinput_valueœ,œidœ:œAnthropicModel-WajFyœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "Prompt-nrpOe",
+        "sourceHandle": "{œdataTypeœ: œPromptœ, œidœ: œPrompt-nrpOeœ, œnameœ: œpromptœ, œoutput_typesœ: [œMessageœ]}",
+        "target": "AnthropicModel-WajFy",
+        "targetHandle": "{œfieldNameœ: œinput_valueœ, œidœ: œAnthropicModel-WajFyœ, œinputTypesœ: [œMessageœ], œtypeœ: œstrœ}"
+      },
+      {
+        "data": {
+          "sourceHandle": {
             "dataType": "AnthropicModel",
-            "id": "AnthropicModel-jRPOc",
+            "id": "AnthropicModel-WajFy",
             "name": "text_output",
             "output_types": [
               "Message"
@@ -188,7 +186,7 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "ChatOutput-PLFpc",
+            "id": "ChatOutput-rg9J5",
             "inputTypes": [
               "Data",
               "DataFrame",
@@ -197,20 +195,322 @@
             "type": "other"
           }
         },
-        "id": "reactflow__edge-AnthropicModel-jRPOc{œdataTypeœ:œAnthropicModelœ,œidœ:œAnthropicModel-jRPOcœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-PLFpc{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-PLFpcœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
-        "selected": false,
-        "source": "AnthropicModel-jRPOc",
-        "sourceHandle": "{œdataTypeœ:œAnthropicModelœ,œidœ:œAnthropicModel-jRPOcœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "ChatOutput-PLFpc",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-PLFpcœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
+        "id": "xy-edge__AnthropicModel-WajFy{œdataTypeœ:œAnthropicModelœ,œidœ:œAnthropicModel-WajFyœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-rg9J5{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-rg9J5œ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
+        "source": "AnthropicModel-WajFy",
+        "sourceHandle": "{œdataTypeœ: œAnthropicModelœ, œidœ: œAnthropicModel-WajFyœ, œnameœ: œtext_outputœ, œoutput_typesœ: [œMessageœ]}",
+        "target": "ChatOutput-rg9J5",
+        "targetHandle": "{œfieldNameœ: œinput_valueœ, œidœ: œChatOutput-rg9J5œ, œinputTypesœ: [œDataœ, œDataFrameœ, œMessageœ], œtypeœ: œotherœ}"
       }
     ],
     "nodes": [
       {
         "data": {
+          "description": "Get chat inputs from the Playground.",
+          "display_name": "Chat Input",
+          "id": "ChatInput-UKcNw",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Get chat inputs from the Playground.",
+            "display_name": "Chat Input",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "should_store_message",
+              "sender",
+              "sender_name",
+              "session_id",
+              "files",
+              "background_color",
+              "chat_icon",
+              "text_color"
+            ],
+            "frozen": false,
+            "icon": "MessagesSquare",
+            "legacy": false,
+            "lf_version": "1.0.19.post2",
+            "metadata": {},
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Message",
+                "method": "message_response",
+                "name": "message",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "background_color": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Background Color",
+                "dynamic": false,
+                "info": "The background color of the icon.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "name": "background_color",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "chat_icon": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Icon",
+                "dynamic": false,
+                "info": "The icon of the message.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "name": "chat_icon",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.base.data.utils import IMG_FILE_TYPES, TEXT_FILE_TYPES\nfrom langflow.base.io.chat import ChatComponent\nfrom langflow.inputs import BoolInput\nfrom langflow.io import (\n    DropdownInput,\n    FileInput,\n    MessageTextInput,\n    MultilineInput,\n    Output,\n)\nfrom langflow.schema.message import Message\nfrom langflow.utils.constants import (\n    MESSAGE_SENDER_AI,\n    MESSAGE_SENDER_NAME_USER,\n    MESSAGE_SENDER_USER,\n)\n\n\nclass ChatInput(ChatComponent):\n    display_name = \"Chat Input\"\n    description = \"Get chat inputs from the Playground.\"\n    icon = \"MessagesSquare\"\n    name = \"ChatInput\"\n    minimized = True\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Text\",\n            value=\"\",\n            info=\"Message to be passed as input.\",\n            input_types=[],\n        ),\n        BoolInput(\n            name=\"should_store_message\",\n            display_name=\"Store Messages\",\n            info=\"Store the message in the history.\",\n            value=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"sender\",\n            display_name=\"Sender Type\",\n            options=[MESSAGE_SENDER_AI, MESSAGE_SENDER_USER],\n            value=MESSAGE_SENDER_USER,\n            info=\"Type of sender.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"sender_name\",\n            display_name=\"Sender Name\",\n            info=\"Name of the sender.\",\n            value=MESSAGE_SENDER_NAME_USER,\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"session_id\",\n            display_name=\"Session ID\",\n            info=\"The session ID of the chat. If empty, the current session ID parameter will be used.\",\n            advanced=True,\n        ),\n        FileInput(\n            name=\"files\",\n            display_name=\"Files\",\n            file_types=TEXT_FILE_TYPES + IMG_FILE_TYPES,\n            info=\"Files to be sent with the message.\",\n            advanced=True,\n            is_list=True,\n        ),\n        MessageTextInput(\n            name=\"background_color\",\n            display_name=\"Background Color\",\n            info=\"The background color of the icon.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"chat_icon\",\n            display_name=\"Icon\",\n            info=\"The icon of the message.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"text_color\",\n            display_name=\"Text Color\",\n            info=\"The text color of the name\",\n            advanced=True,\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Message\", name=\"message\", method=\"message_response\"),\n    ]\n\n    async def message_response(self) -> Message:\n        background_color = self.background_color\n        text_color = self.text_color\n        icon = self.chat_icon\n\n        message = await Message.create(\n            text=self.input_value,\n            sender=self.sender,\n            sender_name=self.sender_name,\n            session_id=self.session_id,\n            files=self.files,\n            properties={\n                \"background_color\": background_color,\n                \"text_color\": text_color,\n                \"icon\": icon,\n            },\n        )\n        if self.session_id and isinstance(message, Message) and self.should_store_message:\n            stored_message = await self.send_message(\n                message,\n            )\n            self.message.value = stored_message\n            message = stored_message\n\n        self.status = message\n        return message\n"
+              },
+              "files": {
+                "_input_type": "FileInput",
+                "advanced": true,
+                "display_name": "Files",
+                "dynamic": false,
+                "fileTypes": [
+                  "txt",
+                  "md",
+                  "mdx",
+                  "csv",
+                  "json",
+                  "yaml",
+                  "yml",
+                  "xml",
+                  "html",
+                  "htm",
+                  "pdf",
+                  "docx",
+                  "py",
+                  "sh",
+                  "sql",
+                  "js",
+                  "ts",
+                  "tsx",
+                  "jpg",
+                  "jpeg",
+                  "png",
+                  "bmp",
+                  "image"
+                ],
+                "file_path": "",
+                "info": "Files to be sent with the message.",
+                "list": true,
+                "name": "files",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "file",
+                "value": ""
+              },
+              "input_value": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "display_name": "Text",
+                "dynamic": false,
+                "info": "Message to be passed as input.",
+                "input_types": [],
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input_value",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "Failed to get YouTube transcripts: 1 validation error for Data\ndata\n  Input should be a valid dictionary [type=dict_type, input_value=Document(metadata={'sourc...adding the API key and\"), input_type=Document]\n    For further information visit https://errors.pydantic.dev/2.9/v/dict_type\n\n\nAlso, adapt the \"text\" bc it returns this \"Document(metadata={'source': 'UkV79sJAvz8'}, page_content=\"assembly AI is one of the leaders in transcription services so you can convert speech into text and they have many different products available on their platform and we can use assembly within langlow and the way we can get started is to First make an account with assembly Ai and once you get started you will be provided with an API key this is something we're going to need in langlow now back in link flow there are a few different components available and in this example we are using the start transcript component within this component we can provide a file and what I did is I uploaded a 1-hour talk by Andre karpati and this is intro to the large language models and this is an MP3 file so after adding the API key and then the audio file we can select a model that we want to use for the transcription there are two different options available here best and Nano now after you select the model you can either have the language detection on or leave defaults so I left everything in default and then I started the task and once we run the flow we get a transcript ID and attaching this component with the assembly AI pole transcript component we can now get the results and if we were to look at the results available able from this component there are quite a lot of fields that we can see as a result of this component and some of the most important ones you can see is the text from the transcript as you can see it's quite a large file and all of that was converted from speech to text easily by assembly AI it just took a few seconds and then we can see Word level timestamps if needed as what was spoken at what time the starting and end time for that and also the confidence if there are multiple speakers then it also identifies the speakers for us and then we can also see the utterances at different times so there's also word there's a full text and there's some additional information available here now we can use this data for many different things one is we can parse the transcript so we can just look at the full transcript that was available from this video or in this case this MP3 file and then we can also run to get subtitles and this could be used for any Services where we want to add subtitles in different formats so there is the SRT and the VT format available and the way this looks so I ran it for SRT We have basically the time stamps as well as the sentences those were converted from those time stamps and we can see that it goes on for the full length of the audio file and then if needed we can also convert that to vtt last thing is that if you have credits available in your assembly AI account you can also perform a summary of the audio or you could perhaps do some additional task so for example in our case we could say that create a summary of the transcript we could also say that create a blog post from the transcript or perhaps an essay from the transcript so we can get creative with the available information since the transcript of the file is now available and we can utilize that text for many different purposes the flow and the components should be available in the store be sure to add your API key in all of these components wherever it says to add the API key if not it might throw some errors and there are also some additional components available you can check those out based on your use cases as well give it a try and let us know if you found it helpful\")\" \n\nwe only want the page_content "
+              },
+              "sender": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "display_name": "Sender Type",
+                "dynamic": false,
+                "info": "Type of sender.",
+                "name": "sender",
+                "options": [
+                  "Machine",
+                  "User"
+                ],
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "User"
+              },
+              "sender_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Sender Name",
+                "dynamic": false,
+                "info": "Name of the sender.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "name": "sender_name",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "User"
+              },
+              "session_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Session ID",
+                "dynamic": false,
+                "info": "The session ID of the chat. If empty, the current session ID parameter will be used.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "name": "session_id",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "should_store_message": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Store Messages",
+                "dynamic": false,
+                "info": "Store the message in the history.",
+                "list": false,
+                "name": "should_store_message",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "text_color": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Text Color",
+                "dynamic": false,
+                "info": "The text color of the name",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "name": "text_color",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "type": "ChatInput"
+        },
+        "dragging": false,
+        "height": 231,
+        "id": "ChatInput-UKcNw",
+        "measured": {
+          "height": 231,
+          "width": 360
+        },
+        "position": {
+          "x": 1425.511811793499,
+          "y": 1250.8109912742284
+        },
+        "positionAbsolute": {
+          "x": 1436.7228707197569,
+          "y": 1045.2749109595
+        },
+        "selected": false,
+        "type": "genericNode",
+        "width": 320
+      },
+      {
+        "data": {
           "description": "Retrieves stored chat messages from Langflow tables or an external memory.",
           "display_name": "Chat Memory",
-          "id": "Memory-NiN8B",
+          "id": "Memory-I2rys",
           "node": {
             "base_classes": [
               "Data",
@@ -439,14 +739,14 @@
         },
         "dragging": false,
         "height": 262,
-        "id": "Memory-NiN8B",
+        "id": "Memory-I2rys",
         "measured": {
           "height": 262,
-          "width": 320
+          "width": 360
         },
         "position": {
-          "x": 1838.328369236117,
-          "y": 1146.6567112830016
+          "x": 1832.6206210738642,
+          "y": 1150.8832220209044
         },
         "positionAbsolute": {
           "x": 1830.6888981898887,
@@ -460,7 +760,7 @@
         "data": {
           "description": "Create a prompt template with dynamic variables.",
           "display_name": "Prompt",
-          "id": "Prompt-5h0SM",
+          "id": "Prompt-nrpOe",
           "node": {
             "base_classes": [
               "Message"
@@ -687,14 +987,14 @@
         },
         "dragging": false,
         "height": 685,
-        "id": "Prompt-5h0SM",
+        "id": "Prompt-nrpOe",
         "measured": {
           "height": 685,
-          "width": 320
+          "width": 360
         },
         "position": {
-          "x": 2219.5265974825707,
-          "y": 521.6320563271215
+          "x": 2214.0288118788944,
+          "y": 514.3016755222201
         },
         "positionAbsolute": {
           "x": 2219.5265974825707,
@@ -706,7 +1006,7 @@
       },
       {
         "data": {
-          "id": "note-yHXHY",
+          "id": "note-zj965",
           "node": {
             "description": "# Fetch Components code \n\nUsing the URL component we are extracting from Github, the code from a few classes to provide as example to the LLM. \n\nThis ensures we are always up to date with recent information from the codebase.",
             "display_name": "",
@@ -717,14 +1017,14 @@
         },
         "dragging": false,
         "height": 324,
-        "id": "note-yHXHY",
+        "id": "note-zj965",
         "measured": {
           "height": 324,
-          "width": 325
+          "width": 328
         },
         "position": {
-          "x": 1430.2014058924922,
-          "y": -19.30392196909918
+          "x": 1428.2696830085167,
+          "y": -263.5483680075372
         },
         "positionAbsolute": {
           "x": 1430.2014058924922,
@@ -736,7 +1036,7 @@
       },
       {
         "data": {
-          "id": "note-GDd7x",
+          "id": "note-bpuGP",
           "node": {
             "description": "# 🛠️ Custom Component Generator 🚀\n\nHi! I'm here to help you create custom components for Langflow. Think of me as your technical partner who can help turn your ideas into working components! \n\n## 🎯 How to Work With Me\n\n### 1. 💭 Tell Me What You Want to Build\nSimply describe what you want your component to do in plain English. For example:\n- \"I need a component that sends Slack messages\"\n- \"I want to create a tool that can process CSV files\"\n- \"I need something that can translate text\"\n\n### 2. 📚 Share Any Relevant Information\nIf you're working with a specific:\n- 🔑 API or service (just share the documentation link or main endpoints)\n- 📄 File format\n- 🔄 Data structure\n- 🔧 Existing component you want to modify\n\n### 3. 🎨 Let Me Help Design It\nI'll help by:\n- 📊 Breaking down complex requirements into manageable pieces\n- 💡 Suggesting the best way to structure inputs and outputs\n- ⚙️ Creating the component code\n- 📝 Explaining how to use it\n\n### 4. 🔄 Iterative Refinement\nWe can then:\n- ✅ Test and refine the component\n- ⭐ Add features\n- 🔧 Modify behavior\n- 🛡️ Improve error handling\n- 📖 Add documentation\n\n## 🚀 What I Can Help With\n\nI can help create components that:\n- 📊 Process different file types (CSV, JSON, Excel, etc.)\n- 🔌 Integrate with external APIs\n- 🔄 Transform data\n- 🔀 Route messages\n- 🌐 Handle web requests\n- 🎯 Parse structured data\n- ✨ And much more!\n\n## 💡 Tips for Best Results\n\n1. **Be Specific** 🎯: The more details you provide about what you want to accomplish, the better I can help.\n\n2. **Share Examples** 📋: If you have example data or specific use cases, share them.\n\n3. **Ask Questions** ❓: Don't hesitate to ask for clarification or modifications.\n\nJust start by telling me what kind of component you'd like to create, and I'll guide you through the process! \n\nReady to build something awesome? 🚀 Let's get started!",
             "display_name": "",
@@ -746,15 +1046,15 @@
           "type": "note"
         },
         "dragging": false,
-        "height": 1328,
-        "id": "note-GDd7x",
+        "height": 573,
+        "id": "note-bpuGP",
         "measured": {
-          "height": 1328,
-          "width": 620
+          "height": 573,
+          "width": 623
         },
         "position": {
-          "x": 795.9272253812251,
-          "y": -10.444537101710011
+          "x": 1002.7334076860311,
+          "y": 538.0401552689275
         },
         "positionAbsolute": {
           "x": 807.6293964045135,
@@ -771,7 +1071,7 @@
       },
       {
         "data": {
-          "id": "URL-4puol",
+          "id": "URL-jMFLx",
           "node": {
             "base_classes": [
               "Data",
@@ -946,14 +1246,14 @@
         },
         "dragging": false,
         "height": 365,
-        "id": "URL-4puol",
+        "id": "URL-jMFLx",
         "measured": {
           "height": 365,
-          "width": 320
+          "width": 360
         },
         "position": {
-          "x": 1436.3617127766433,
-          "y": 264.218898085405
+          "x": 1428.8876734924713,
+          "y": 32.523680276074714
         },
         "positionAbsolute": {
           "x": 1436.3617127766433,
@@ -965,7 +1265,7 @@
       },
       {
         "data": {
-          "id": "URL-nHm91",
+          "id": "URL-yGoND",
           "node": {
             "base_classes": [
               "Data",
@@ -1146,10 +1446,10 @@
         },
         "dragging": false,
         "height": 661,
-        "id": "URL-nHm91",
+        "id": "URL-yGoND",
         "measured": {
           "height": 661,
-          "width": 320
+          "width": 360
         },
         "position": {
           "x": 1831.5895760156684,
@@ -1165,7 +1465,7 @@
       },
       {
         "data": {
-          "id": "URL-YH8Jm",
+          "id": "URL-ps8i7",
           "node": {
             "base_classes": [
               "Data",
@@ -1340,14 +1640,14 @@
         },
         "dragging": false,
         "height": 365,
-        "id": "URL-YH8Jm",
+        "id": "URL-ps8i7",
         "measured": {
           "height": 365,
-          "width": 320
+          "width": 360
         },
         "position": {
-          "x": 1437.8822111469165,
-          "y": 828.6994070109964
+          "x": 1429.5084407373513,
+          "y": 632.4558314720756
         },
         "positionAbsolute": {
           "x": 1436.982480021523,
@@ -1359,7 +1659,7 @@
       },
       {
         "data": {
-          "id": "AnthropicModel-jRPOc",
+          "id": "AnthropicModel-WajFy",
           "node": {
             "base_classes": [
               "LanguageModel",
@@ -1397,7 +1697,6 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Message",
-                "hidden": null,
                 "method": "text_response",
                 "name": "text_output",
                 "required_inputs": [],
@@ -1412,7 +1711,6 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Language Model",
-                "hidden": null,
                 "method": "build_model",
                 "name": "model_output",
                 "required_inputs": [
@@ -1626,7 +1924,7 @@
                 "trace_as_input": true,
                 "trace_as_metadata": true,
                 "type": "str",
-                "value": ""
+                "value": "langflow"
               },
               "temperature": {
                 "_input_type": "SliderInput",
@@ -1682,10 +1980,10 @@
           "type": "AnthropicModel"
         },
         "dragging": false,
-        "id": "AnthropicModel-jRPOc",
+        "id": "AnthropicModel-WajFy",
         "measured": {
-          "height": 807,
-          "width": 320
+          "height": 896,
+          "width": 360
         },
         "position": {
           "x": 2585.5577736139826,
@@ -1696,7 +1994,7 @@
       },
       {
         "data": {
-          "id": "ChatInput-t7JYH",
+          "id": "ChatInput-Gr6pw",
           "node": {
             "base_classes": [
               "Message"
@@ -1993,10 +2291,10 @@
           "type": "ChatInput"
         },
         "dragging": false,
-        "id": "ChatInput-t7JYH",
+        "id": "ChatInput-Gr6pw",
         "measured": {
-          "height": 66,
-          "width": 192
+          "height": 74,
+          "width": 216
         },
         "position": {
           "x": 1444.5468159526824,
@@ -2007,7 +2305,7 @@
       },
       {
         "data": {
-          "id": "ChatOutput-PLFpc",
+          "id": "ChatOutput-rg9J5",
           "node": {
             "base_classes": [
               "Message"
@@ -2302,10 +2600,10 @@
           "type": "ChatOutput"
         },
         "dragging": false,
-        "id": "ChatOutput-PLFpc",
+        "id": "ChatOutput-rg9J5",
         "measured": {
-          "height": 66,
-          "width": 192
+          "height": 74,
+          "width": 216
         },
         "position": {
           "x": 2978.7260774697843,
@@ -2316,14 +2614,14 @@
       }
     ],
     "viewport": {
-      "x": -314.46281472836154,
-      "y": 48.51655612613882,
-      "zoom": 0.523596460513437
+      "x": -479.64103023922644,
+      "y": 299.30319118202885,
+      "zoom": 0.5404365241629946
     }
   },
   "description": "Generates well-structured code for custom components following Langflow's specifications.",
   "endpoint_name": null,
-  "id": "63ec7760-1150-4cbf-93f5-8514e7c15922",
+  "id": "4e7e8184-1a8c-4e04-ae99-b9c9ba48be53",
   "is_component": false,
   "last_tested_version": "1.2.0",
   "name": "Custom Component Generator",
